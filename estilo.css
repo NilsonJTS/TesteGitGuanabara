@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 200px;
+    gap: 100px;
+    padding-top: 200px;
+}
+
+p {
+    grid-column: 3;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    grid-column: 2;
+}
